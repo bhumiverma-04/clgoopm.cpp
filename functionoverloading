@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+class student{
+  public:
+    void behaviour(){
+        cout<<"I'm a student"<<endl;
+    }
+};
+class customer{
+  public:
+    void behaviour(){
+        cout<<"i'm in the market"<<endl;
+    }
+};
+class daughter{
+  public:
+    void behaviour(){
+        cout<<"I'm a daughter"<<endl;
+    }
+};
+int main(){
+    student S1;
+    customer C1;
+    daughter D1;
+    D1.behaviour();
+    S1.behaviour();
+    C1.behaviour();
+    return 0;
+};
